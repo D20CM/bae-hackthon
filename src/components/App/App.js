@@ -2,7 +2,7 @@ import logo from "../../logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { Progress } from "../Progress/Progress";
-//import { EmergingReader } from "../EmergingReader/EmergingReader";
+import { EmergingReader } from "../EmergingReader/EmergingReader";
 //import { Profile } from "../Profile/Profile";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
       </nav>
       <Routes>
         {/* <Route path="profile" element={<Profile />} /> */}
-        {/* <Route path="emergingreader" element={<EmergingReader />} /> */}
+        <Route path="emergingreader" element={<EmergingReader />} />
         <Route path="progress" element={<Progress />} />
       </Routes>
     </div>
