@@ -14,7 +14,9 @@ export function Progress() {
       <br></br>
       <h2 className={css.step2}>Novice Reader 📖</h2>
       <br></br>
-      <h2 className={css.step1}>Emerging Reader🌱</h2>
+      <Link to="/emergingreader" style={{ textDecoration: "inherit" }}>
+        <h2 className={css.step1}>Emerging Reader🌱</h2>
+      </Link>
     </>
   );
 }
