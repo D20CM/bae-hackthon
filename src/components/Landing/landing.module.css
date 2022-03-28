@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d86666;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.logo {
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+  z-index: -1;
+}
+
+.slogan {
+  font-size: 40px;
+  color: black;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  right: 40%;
+  /* background-color: darkgrey; */
+
+  /* transform: translate(-50%, -50%); */
+}
+
+.signup {
+  z-index: 1;
+  color: white;
+  background-color: #ff0000;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
