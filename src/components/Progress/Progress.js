@@ -1,4 +1,5 @@
 import css from "./Progress.module.css";
+import { Link } from "react-router-dom";
 
 export function Progress() {
   return (
