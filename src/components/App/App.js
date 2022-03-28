@@ -1,4 +1,5 @@
 import logo from "../../logo.svg";
+import Landing from "../Landing/landing";
 import "./App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { Progress } from "../Progress/Progress";
@@ -8,9 +9,13 @@ import { Progress } from "../Progress/Progress";
 function App() {
   return (
     <div className="App">
+
+      
+
       <header className="App-header">
         <p>LearnIt!</p>
       </header>
+    <Landing />
       <nav
         style={{
           borderBottom: "solid 1px",
@@ -26,6 +31,7 @@ function App() {
         {/* <Route path="emergingreader" element={<EmergingReader />} /> */}
         <Route path="progress" element={<Progress />} />
       </Routes>
+
     </div>
   );
 }
