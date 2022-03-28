@@ -2,11 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./components/App/App";
+import { Progress } from "./components/Progress/Progress";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Progress />
   </React.StrictMode>,
   document.getElementById("root")
 );
