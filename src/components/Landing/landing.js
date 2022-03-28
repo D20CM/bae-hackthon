@@ -15,7 +15,7 @@ const Landing = () => {
           A platform where you can access all recources to suit your learing
           needs.{" "}
         </p>
-        <p>Benefits: Start from where you left with the progress tracker </p>
+        <p>Benefits: Continue from where you left with the progress tracker </p>
       </div>
 
       <button className={styles.signup}> Sign up to begin your journey</button>
